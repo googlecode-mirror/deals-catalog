@@ -1,0 +1,29 @@
+#categorysearch
+{
+	float:left; width:490px; margin-top:2px;
+}
+
+.categorylabel1
+{
+	float:left; width:45px; padding:5px; color:white
+}
+
+.categorylabel2
+{
+	float:left; width:150px; padding:0px 5px;
+}
+
+.categorylabel3
+{
+	float:left; width:145px; padding:0px 5px;
+}
+
+.categorylabel4
+{
+	float:left; width:45px; 
+}
+
+.searchcategory
+{
+	background:url("searchicon.png"); width:40px; height:25px; background-repeat:no-repeat; border:none;
+}
