@@ -1,0 +1,780 @@
+#deals
+{
+	background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin: 10px 0;
+    padding: 0 10px;
+    width: 735px;
+	font-family:Helvetica,Arial,sans-serif; *padding:0px 0px 10px 0px;
+}
+#main_promoted
+{
+	float: left;
+    margin: 10px 15px;
+    position: relative;
+    width: 482px;
+}
+img{border:none;}
+				
+    /* image replacement */
+        .graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+            margin:0;
+            padding:0;
+            display:block;
+            overflow:hidden;
+            text-indent:-8000px;
+            }
+    /* // image replacement */
+			
+	#slider
+	{
+		/*border:1px solid #ccc; */
+		padding:0px 0px 10px 5px;
+		margin:0px 0px; font-family:Helvetica,Arial,sans-serif;
+	}
+
+/* Easy Slider */
+
+	#slider ul, #slider li
+	{
+		margin:0 ;
+		padding:0 ;
+		list-style:none;
+		}
+	
+	#slider li{ 
+		
+		width:450px ;
+		height:425px; *height:435px;
+		overflow:hidden; 
+		}
+	#slider li a{ 
+		list-style:none; margin-left:15px;
+	}
+	#prevBtn, #nextBtn
+	{ 
+		display:block;
+		width:40px;
+		height:47px;
+		position:absolute;
+		left:-16px;
+		top:120px;
+		/*z-index:1000;*/
+		}	
+	#nextBtn { 
+		left:445px;
+		}														
+	#prevBtn a, #nextBtn a
+	{  
+		display:block;
+		position:relative;
+		width:47px;
+		height:77px;
+		background:url(../left.gif) no-repeat 0 0;	
+		opacity:0.09; filter: alpha(opacity = 9);
+		}	
+	#nextBtn a { 
+		background:url(../right.gif) no-repeat 0 0;	
+		}	
+	#prevBtn a:hover
+	{
+		background: url(../left.gif) no-repeat 0 0!important;
+		opacity:1; filter: alpha(opacity = 100);
+	}
+	#nextBtn a:hover { 
+		background:url(../right.gif) no-repeat 0 0 !important;
+		opacity:1; filter: alpha(opacity = 100);
+		}
+	#prevBtn a:active
+	{
+		background: url(../left.gif) no-repeat 0 0!important;
+	}
+	#nextBtn a:active { 
+		background:url(../right.gif) no-repeat 0 0 !important;	
+		}
+	.itemslists
+	{
+		text-align:center !important; margin:5px; color:#135CAE; font-weight:bold; font-family:Helvetica,Arial,sans-serif;
+	}
+	#slider li h3
+	{
+		color:#000; margin:2px 0px;
+	}
+	#org_price
+	{
+		color:red;
+		text-decoration:line-through; font-family:Helvetica,Arial,sans-serif;
+	}
+	#deal_price
+	{
+		color:red; font-weight:bold; font-size:13px; font-family:Helvetica,Arial,sans-serif;
+	}
+	#second_promoted
+	{
+		border:1px solid #ccc; float:left; width:205px; margin:10px 0px 5px 10px; padding:0px 0px 0px 5px; overflow:auto; height:435px; font-family:Helvetica,Arial,sans-serif;
+	}
+	.sec_product
+	{
+		float:left; width:202px; font-family:Helvetica,Arial,sans-serif; padding:2px 0px 20px 0px;
+	}
+	.more_deals
+	{
+		float:right; margin-right:10px; padding-top:3px; width:95px;
+	}
+	.more_deals a
+	{
+		text-decoration:none; color:blue;
+	}
+	.more_productlist
+	{
+		float:right; margin-right:10px; padding-top:3px; width:155px; padding-bottom:20px;
+	}
+	.more_productlist a
+	{
+		text-decoration:none; color:blue;
+	}
+	.pname
+	{
+		float:left; width:100px; color:#000; font-size:15px; font-weight:bold; padding-top:15px;
+	}
+	.pimage
+	{
+		float:left; width:100px; padding:10px 0px 0px 2px;
+	}
+	.back
+	{
+		float:right; width:135px;
+	}
+	.back a
+	{
+		text-decoration:none; color:blue
+	}
+	.back1
+	{
+		float:left; width:50px; margin-left:10px;
+	}
+	.back1 a
+	{
+		text-decoration:none; color:blue;
+	}
+	.view_link
+	{
+		 width:90px; float:left; margin-top:35px; padding-left:1px; padding-top:15px;
+	}
+	.view_link a
+	{
+		color:blue; text-decoration:none; font-weight:normal;
+	}
+	.view_link a:hover
+	{
+		color:blue; text-decoration:none;
+	}
+	.view_pname
+	{
+		width:100px; float:left;
+	}
+	#third_promotion
+	{
+		float:left; width:735px; margin:10px 0px; padding:0px;  border-top:1px solid #ccc; font-family:Helvetica,Arial,sans-serif;
+	}
+	.third_view
+	{
+		float:left; width:137px; margin:5px;
+	}
+	.third_image
+	{
+		float:left; width:105px; text-align:center; height:105px;
+	}
+	.third_pname
+	{
+		float:left; width:105px; text-align:center !important;
+	}
+	.third_pname a
+	{
+		color:#000 !important; font-weight:bold !important; font-size:15px !important; text-decoration:none;
+	}
+	.third_pname a:hover
+	{
+		color:red; font-weight:bold; font-size:15px; text-decoration:none;
+	}
+	#product_listing
+	{
+		float:left; width:735px; margin:10px 0px; padding:0px; border-top:1px solid #ccc; font-family:Helvetica,Arial,sans-serif;
+	}
+	.heading
+	{
+		color:#135CAE; font-size:16px; font-weight:bold; width:730px; float:left;
+	}
+	#single_product
+	{
+		float: left; font-size: 12px; margin: 5px; padding: 5px; width: 735px; font-family:Helvetica,Arial,sans-serif; 
+	}
+	#product_head
+	{
+		float: left; width:740px; padding:0px 0px 10px 10px; border-bottom:1px solid #ccc;
+	}
+	.head1
+	{
+		float:left; width:250px;
+	}
+	.head_text
+	{
+		float:left; width:105px; position:relative; top:30px;
+	}
+	.choice
+	{
+		float:left; width:30px; position:relative; top:30px;
+	}
+	.choice_image
+	{
+		float:left; width:110px; 
+	}
+	.head2
+	{
+		float:left; width:410px;
+	}
+	.head2 b
+	{
+		color:red;
+	}
+	.head2 h2
+	{
+		color:red;
+	}
+	.phead
+	{
+		float:left; width:705px; margin:0px 10px 3px 15px; font-family:Helvetica,Arial,sans-serif;
+	}
+	#image_fb
+	{
+		float:left; width:700px; margin:0px 10px; padding:0px 0px 0px 50px;
+	}
+	.big_image
+	{
+		float:left; width:150px;
+	}
+	.fb_like
+	{
+		float:left; width:310px; position:relative; top:50px;
+	}
+	#product_details
+	{
+		float:left; width:755px; margin:10px;
+	}
+	.details_view
+	{
+		border:1px solid #ccc; float:left; width:320px;
+	}
+	.details_title
+	{
+		background-color:#eee; float:left; width:150px; padding:5px; font-weight:bold; text-transform:uppercase;
+	}
+	.details_names1
+	{
+		 float:left; width:149px; font-weight:bold; color:#000; text-transform:uppercase; padding:5px; border-left:1px solid #ccc;
+	}
+	.details_title1
+	{
+		float:left; width:150px; padding:5px; font-weight:bold; text-transform:uppercase;
+	}
+	.details_names
+	{
+		background-color:#eee; float:left; width:149px; font-weight:bold; color:#000; text-transform:uppercase; padding:5px; border-left:1px solid #ccc;
+	}
+	.details_names12
+	{
+		background-color:#fff; float:left; width:149px; font-weight:bold; color:red; text-transform:uppercase; padding:5px; border-left:1px solid #ccc;
+	}
+	.details_names123
+	{
+		background-color:#eee; float:left; width:149px; font-weight:bold; color:red; text-transform:uppercase; padding:5px; border-left:1px solid #ccc;
+	}
+	.location
+	{
+		float:left; width:415px; margin-left:5px;
+	}
+	#coupon
+	{
+		float:left; width:240px; position:relative; top:54px;
+	}
+	#coupon a
+	{
+		text-decoration:none; color:blue;
+	}
+	#customer_login
+	{
+		float:left; width:720px; margin:5px; padding:10px; font-family:Helvetica,Arial,sans-serif; font-size:12px;
+	}
+	#customer_login h2
+	{
+		font-size:12px; font-weight:bold; color:red;
+	}
+	.details_names2
+	{
+		 float:left; width:190px; font-weight:bold; color:red; text-transform:uppercase; padding:5px; 
+	}
+	.details_title2
+	{
+		float:left; width:75px; padding:5px; font-weight:bold; text-transform:uppercase;
+	}
+	.cusregis
+	{
+		float:left; width:700px; padding-top:10px;
+	}
+	.regis
+	{
+		float:left; width:25px; 
+	}
+	.cusregis a
+	{
+		position:relative; top:2px; float:left;
+	}
+	.coupon_text
+	{
+		color:blue; cursor:pointer;
+	}
+	#customer_register
+	{
+		float:left; width:650px; margin:5px; padding:10px; font-family:Helvetica,Arial,sans-serif; font-size:12px; background-color:#eee;
+	}
+	#customer_register h2
+	{
+		font-size:12px; font-weight:bold; color:red;
+	}
+	.details_names3
+	{
+		 float:left; width:175px; color:red; text-transform:uppercase; padding:5px; 
+	}
+	.details_title3
+	{
+		float:left; width:112px; padding:5px;  text-transform:uppercase; 
+	}
+	#products_display
+	{
+		float: left; margin: 5px; width: 750px;
+	}
+	#search_product
+	{
+		float:left; width:525px;
+	}
+	.cat_head
+	{
+		float:left; margin:10px; width:510px;
+	}
+	.cat_head b
+	{
+		color:red;
+	}
+	.cat_title
+	{
+		float:left; width:500px; margin:0px 5px; padding:10px; background-color:#4a4a4a; color:white
+	}
+	.product_count
+	{
+		float:left; width:200px;
+	}
+	.cat_title_head
+	{
+		float:right; width:65px; cursor:pointer; color:white; font-weight:bold;
+	}
+	.cat_title_head1
+	{
+		float:right; width:140px; cursor:pointer; color:blue; font-weight:bold;
+	}
+	.cat_title_head1 a
+	{
+		font-weight:bold !important; text-decoration:none !important; color:white !important;
+	}
+	.product_odd
+	{
+		float: left; margin: 0 5px;	padding: 10px;	width: 500px; background-color:#E1E9F3;
+	}
+	.product_even
+	{
+		float: left; margin: 0 5px;	padding: 10px;	width: 500px; background-color:#F5F5F5;
+	}
+	.ids
+	{
+		float:left; width:10px;
+	}
+	.checks_boxs
+	{
+		float:left; width:25px;
+	}
+	.img_views
+	{
+		float:left; width:120px;
+	}
+	.offer
+	{
+		float:left; width:265px; padding:5px; font-weight:bold;
+	}
+	.offer_highlight
+	{
+		float:left; width:60px; height:0px; position:relative; left:13px; bottom:10px;
+	}
+	.offer_highlight1
+	{
+		float:left; width:60px; height:0px; position:relative; top:100px;
+	}
+	.offer_price
+	{
+		float:left; width:270px; padding:5px;
+	}
+	.deals
+	{
+		color:red; font-weight:bold;
+	}
+	.orginals
+	{
+		color:red; font-weight:bold; text-decoration:line-through;
+	}
+	.details_more
+	{
+		float:right; width:75px; margin-top:13px;
+	}
+	.details_more a
+	{
+		text-decoration:none; color:blue;
+	}
+	.pagi
+	{
+		text-align:center !important; margin:10px 0px; float:left; width:550px;
+	}
+	#featured_offer
+	{
+		float:left; width:198px; margin-top:35px; border:1px solid #D6C782; margin-left:10px;
+	}
+	.featured_head
+	{
+		text-align:center; 	font-weight:bold; width:180px; padding:10px; color:red;
+	}
+	.featured_body
+	{
+		float:left; width:180px; padding:9px;
+	}
+	.featurerimg_views
+	{
+		float:left; width:105px; 
+	}
+	.featurer_desc
+	{
+		float:left; width:185px; font-weight:bold; padding:8px 0px; 
+	}
+	#compare_product
+	{
+		float:left; width:755px;
+	}
+	.compare
+	{
+		float:left; width:255px; font-weight:bold; text-transform:uppercase; margin:0 2px 10px;
+	}
+	.compare_title
+	{
+		float:left; width:190px; font-weight:bold; text-transform:uppercase; margin-bottom:10px;
+	}
+	.compare_image
+	{
+		float:left; width:190px; height:100px; 
+	}
+	.compare_producttitles
+	{
+		float:left; width:190px; padding:10px;
+	}
+	.cat_head h3
+	{
+		margin:0px !important;
+	}
+	.compare1
+	{
+		float:left; width:235px; padding:10px; background-color:#F5F5F5; 
+	}
+	.compare_title1
+	{
+		float:left; width:170px; padding:10px; background-color:#F5F5F5; 
+	}
+	.compare_title12
+	{
+		float:left; width:170px; padding:10px; background-color:#F5F5F5;  min-height:30px;
+	}
+	.compare2
+	{
+		float:left; width:235px; padding:10px; background-color:#E1E9F3;
+	}
+	.compare2 a
+	{
+		color:blue !important; text-decoration:none;
+	}
+	.compare_title2
+	{
+		float:left; width:170px; padding:10px; background-color:#E1E9F3;
+	}
+	.email
+	{
+		text-transform:lowercase;
+	}
+	.compare_title21
+	{
+		float:left; width:170px; padding:10px; background-color:#E1E9F3; min-height:30px;
+	}
+	.compare21
+	{
+		float:left; width:235px; padding:10px; background-color:#E1E9F3; min-height:30px;
+	}
+	.compare21 a
+	{
+		color:blue; text-decoration:none;
+	}
+	.compare12
+	{
+		float:left; width:235px; padding:10px; background-color:#F5F5F5; min-height:30px;
+	}
+	.graphlist
+	{
+		float: left; margin-left: 38px; text-align: center; width: 120px;
+	}
+	.graphlist1
+	{
+		float:left; width:120px; text-align:center;
+	}
+	#merchant_layout
+	{
+		float:left; width:960px; margin:0px 10px;
+	}
+	#dashboard
+	{
+		float:left; width:700px; margin:0px 10px 10px;
+	}
+	#merchant_menu
+	{
+		float:left; width:210px; margin-left:5px; margin-bottom:10px;
+	}
+	#merchant_menu ul
+	{
+		margin:0px; padding:0px 5px; width:195px; float:left; border:2px solid #4A4A4A; border-radius:9px 9px 9px 9px;
+	}
+	#merchant_menu li
+	{
+		list-style:none; float:left; width:180px; padding:10px 5px 0px 10px; border-bottom:1px solid #CCD8D6; height:25px;
+	}
+	#merchant_menu ul li a
+	{
+		text-decoration:none; color:#000; font-weight:bold;
+	}
+	.merchant_title
+	{
+		float:left; width:735px;
+	}
+	.merchant_title h2
+	{
+		margin:0 0 10px;
+	}
+	#addproduct
+	{
+		float:left; width:690px; margin:0px 10px 10px;
+	}
+	.welcome
+	{
+		float:left; width:600px; color:#999999;
+	}
+	.pro_head
+	{
+		float:left; width:150px; padding-top:3px;
+	}
+	.viewproducts
+	{
+		float:left; width:170px;
+	}
+	#single_product1
+	{
+		float:left; width:670px; margin:10px; 
+	}
+	.side_title
+	{
+		float:left; width:95px;
+	}
+	.add
+	{
+		float:left; width:120px; padding-top:5px; cursor:pointer; color:blue; font-weight:bold; 
+	}
+	.add a
+	{
+		color:blue; text-decoration:none;
+	}
+	#newproducts
+	{
+		float:left; width:725px; margin:0px 10px 10px;
+	}
+	.details_title4
+	{
+		float:left; width:165px; padding:5px;  text-transform:uppercase; 
+	}
+	.productadd
+	{
+		float:left; width:719px; padding:0px 5px; margin:5px;
+	}
+	.or
+	{
+		float:left; width:30px; padding:10px;
+	}
+	#categories
+	{
+		float:left; width:505px;
+	}
+	.checkcategory
+	{
+		float:left; width:225px; padding:5px; text-transform:uppercase; 
+	}
+	#newcategories
+	{
+		float:left; width:505px;
+	}
+	#manufacturer
+	{
+		float:left; width:505px;
+	}
+	#newmanufacturer
+	{
+		float:left; width:505px;
+	}
+	.submit
+	{
+		float:left; width:670px; text-align:center; padding-top:10px;
+	}
+	input, select, textarea, fieldset
+	{
+		border:1px solid #CCD8D6 ; border-radius:0.4em 0.4em 0.4em 0.4em !important; 
+	}
+	.adds
+	{
+		background-color:#E1E9F3; font-weight:bold; text-transform:uppercase; cursor:pointer;
+	}
+	.details_desc
+	{
+		float:left; width:510px; padding:5px;
+	}
+	#productlisting
+	{
+		float:left; width:725px; margin:0 10px 10px;
+	}
+	.listdeal
+	{
+		float:left; width:750px;
+	}
+	.listdeal  h2
+	{
+		margin:0 0 10px;
+	}
+	.dealform
+	{
+		float:left; width:575px; margin:5px 0px;
+	}
+	#showdeal
+	{
+		float:left; width:390px;
+	}
+	.submits
+	{
+		float:left; width:390px; text-align:center; padding-top:10px;
+	}
+	.submits a
+	{
+		text-decoration:none;
+	}
+	#myusage
+	{
+		float:left; width:550px; margin:0 10px 10px;
+	}
+	.lists
+	{
+		float:left; width:550px;
+	}
+	.lists h2
+	{
+		margin:0 0 10px;
+	}
+	.side_desc
+	{
+		float:left; width:240px;
+	}
+	#product_desc
+	{
+		float:left; width:240px;
+	}
+	#product_desc1
+	{
+		float:left; width:240px;
+	}
+	#product_image
+	{
+		float:left; width:240px;
+	}
+	#product_image1
+	{
+		float:left; width:240px;
+	}
+	.editlist
+	{
+		float:left; width:750px;
+	}
+	.editlist h2
+	{
+		margin:0 0 10px;
+	}
+	#editproductlisting
+	{
+		float:left; width:760px; margin:0 10px 10px;
+	}
+	.editproduct
+	{
+		float:left; width:410px;
+	}
+	#coupons
+	{
+		float:left; width:760px; margin:0 10px 10px;
+	}
+	.coupons_view
+	{
+		float:left; width:750px;
+	}
+	.coupons_view h2
+	{
+		margin:0 0 10px;
+	}
+	.coupons_list
+	{
+		float:left; width:500px; padding:5px;
+	}
+	.location1
+	{
+		float:left; width:600px;
+	}
+	.details_title31
+	{
+		float:left; width:112px; padding:5px; text-transform:uppercase;
+	}
+	.details_title32
+	{
+		float:left; width:440px; padding:uppercase
+	}
+	.cat_head1
+	{
+		float:left; width:730px; margin:10px;
+	}
+	.details_names5
+	{
+		 float:left; width:155px; color:red; text-transform:uppercase; padding:5px; 
+	}
+	.offers
+	{
+		float:left; width:530px; padding:5px; font-weight:bold;
+	}
+	.offers1
+	{
+		float:left; width:550px; padding:5px; font-weight:bold;
+	}
+	.deal_listing
+	{
+		float:left; width:700px; margin:5px;
+	}

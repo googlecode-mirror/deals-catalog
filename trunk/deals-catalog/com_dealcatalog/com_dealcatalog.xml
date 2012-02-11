@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>Deal Catalog</name>
+	<author>thagatpam.com</author>
+	<creationDate>November 2011</creationDate>
+	<copyright>Copyright (C) 2011-2012 thagatpam PVT LTD. All rights reserved.</copyright>
+	<authorEmail>srikrishnan@thagatpam.com</authorEmail>
+	<authorUrl>www.thagatpam.com</authorUrl>
+	<version>1.5.6 Stable Update 10</version>
+	<description>
+		<![CDATA[
+		 <p><b>Deal Catalog Component for products Listing and Deals</b></p>
+		
+		]]>
+	</description>
+	
+	<install>
+		<sql folder="admin/sql">
+			<file driver="mysql" charset="utf8">install.dealcatalog.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql  folder="admin/sql">
+			<file driver="mysql" charset="utf8">uninstall.dealcatalog.sql</file>
+		</sql>
+	</uninstall>
+	
+
+	<installfile>install.dealcatalog.php</installfile>
+	
+	<uninstallfile>uninstall.dealcatalog.php</uninstallfile>
+
+	<files folder="site">
+		<folder>css</folder>
+		<folder>js</folder>
+		<filename>index.html</filename>
+		<filename>dealcatalog.php</filename>
+		<filename>dealcatalog.html.php</filename>
+		<filename>left.gif</filename>
+		<filename>right.gif</filename>
+		<filename>icon_7.png</filename>
+		<filename>default.png</filename>
+		<filename>deal.png</filename>
+	</files>
+	<administration>
+		<menu>Deal Catalog</menu>
+		<submenu>
+			<menu link="option=com_dealcatalog">CPanel</menu>
+			<menu link="option=com_dealcatalog&amp;task=merchant">Merchants</menu>
+			<menu link="option=com_dealcatalog&amp;task=customers">Customers</menu>
+			<menu link="option=com_dealcatalog&amp;task=categories">Categories</menu>
+			<menu link="option=com_dealcatalog&amp;task=manufacturers">Manufacturers</menu>
+			<menu link="option=com_dealcatalog&amp;task=products">Products</menu>
+			<menu link="option=com_dealcatalog&amp;task=productlistingsanddeals">Product Listings/Deals</menu>
+			<menu link="option=com_dealcatalog&amp;task=coupons">Coupons</menu>			
+		</submenu>
+		<files folder="admin">
+			<folder>tables</folder>
+			<folder>sql</folder>
+			<filename>index.html</filename>
+			<filename>admin.dealcatalog.php</filename>
+			<filename>admin.dealcatalog.html.php</filename>
+			<filename>toolbar.dealcatalog.html.php</filename>
+			<filename>toolbar.dealcatalog.php</filename>			
+		</files>
+		
+		<files folder="admin/sql">
+			<filename>index.html</filename>
+			<filename>install.dealcatalog.sql</filename>
+			<filename>uninstall.dealcatalog.sql</filename>
+		</files>
+		
+		
+	</administration>
+</install>

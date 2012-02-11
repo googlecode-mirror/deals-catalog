@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<install type="module" version="1.5">
+
+	<name>Products category search for deal catalog components</name>
+
+	<author>Thagatpam</author>
+
+	<creationDate>DEC 2011</creationDate>
+
+	<copyright>Copyright (C) 2011 Thagatpam Open Source Matters. All rights reserved.</copyright>
+
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+
+	<authorEmail>sreekrishnan@thagatpam.com</authorEmail>
+
+	<authorUrl>http;//thagatpam.com</authorUrl>
+
+	<version>1.5</version>
+
+	<description>This module display the category search a particular products on the deal catalog Component </description>
+
+	<files>
+
+		<filename module="mod_dealsearch">mod_dealsearch.php</filename>
+
+		<filename>mod_dealsearch.xml</filename>
+		
+		<filename>searchicon.png</filename>
+		
+		<filename>dealsearch.css</filename>
+
+		<filename>helper.php</filename>
+
+		<filename>tmpl/default.php</filename>
+
+	</files>
+
+	<params>
+
+	</params>
+
+</install>

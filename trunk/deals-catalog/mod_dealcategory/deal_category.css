@@ -1,0 +1,99 @@
+#allcat
+{
+	background: url(browse_categories_sprite-28339.png) no-repeat;
+	width: 220px;
+	
+	width: 220px;
+	margin: 5px 0 0 0px;
+	float: left;
+	/*border: 1px solid red;*/
+	*float left: !important;
+	
+}
+
+#allcat_cont
+{
+	border-top: 1px solid #D6C782;
+	border-left: 1px solid #D6C782;
+	border-right: 1px solid #D6C782;
+	float: left;
+	margin: 1px 0 0 4px;
+	background-color: #FFFEF5;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: block;
+	
+	
+}
+
+#css_dropdown_verticale, #css_dropdown_verticale ul, #css_dropdown_verticale li{
+	padding:0;
+	margin:0;
+	float: left;
+	}
+	#css_dropdown_verticale li{
+	  border-bottom: 1px solid #CCD8D6;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    list-style: none outside none;
+    margin-left: 10px;
+    padding: 0 10px;
+    position: relative;
+    text-align: left;
+    width: 190px;
+	
+	
+	}
+	#css_dropdown_verticale li a{
+	text-decoration:none;
+	color: #000000;
+	font-weight: bold;
+	font-size: 12px;
+	}
+	#css_dropdown_verticale li:hover{
+	/*border-bottom: 1px solid #D6C782;
+	border-top: 1px solid #D6C782;*/
+	text-decoration: underline;
+	
+	}
+	#css_dropdown_verticale ul ul{
+	position: absolute;
+	top:0;
+	left:160px;
+	visibility:hidden;
+	border-top: 1px solid #D6C782;
+	float: left;
+	background: #FFFFFF;
+	z-index: 10;
+	*z-index: 10000;
+	
+	}
+	#css_dropdown_verticale ul li:hover ul{
+	visibility:visible;
+	margin-left: 55px;
+	
+	}
+	#css_dropdown_verticale ul
+	{
+	border-bottom: 4px solid #D6C782;
+	border-left: 1px solid #D6C782;
+	border-right: 1px solid #D6C782;
+    width: 220px;
+	margin-left: -1px; margin-top:39px;
+	
+	}
+	#sub-arrow
+	{
+	float: right;
+    font-size: 10px;
+    font-weight: bold;
+	*position: relative;
+	*bottom: 30px;
+	
+	}
+	#css_dropdown_verticale li a:hover
+	{
+		color: #333333;
+	}
+	
