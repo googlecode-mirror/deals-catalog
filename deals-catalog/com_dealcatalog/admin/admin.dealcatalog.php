@@ -666,7 +666,7 @@ switch ($task) {
 			$row->email_id = JRequest::getVar( 'email_id', '','post', 'string', JREQUEST_ALLOWRAW );
 			$row->Contact_number = $number;
 			$row->city = JRequest::getVar( 'city', '','post', 'string', JREQUEST_ALLOWRAW );
-			$row->state = JRequest::getVar( 'states', '','post', 'string', JREQUEST_ALLOWRAW );
+			$row->states = JRequest::getVar( 'states', '','post', 'string', JREQUEST_ALLOWRAW );
 			$row->approved = JRequest::getVar( 'approved', '','post', 'int', JREQUEST_ALLOWRAW );
 			
 			if(!$row->store()){
@@ -751,7 +751,7 @@ switch ($task) {
 			$row->email_id = JRequest::getVar( 'email_id', '','post', 'string', JREQUEST_ALLOWRAW );
 			$row->Contact_number = JRequest::getVar( 'Contact_number', '','post', 'string', JREQUEST_ALLOWRAW );
 			$row->city = JRequest::getVar( 'city', '','post', 'string', JREQUEST_ALLOWRAW );
-			$row->state = JRequest::getVar( 'states', '','post', 'string', JREQUEST_ALLOWRAW );
+			$row->states = JRequest::getVar( 'states', '','post', 'string', JREQUEST_ALLOWRAW );
 			$row->approved = JRequest::getVar( 'approved', '','post', 'int', JREQUEST_ALLOWRAW );
 			
 			if(!$row->store()){
