@@ -16,7 +16,7 @@ class Tabledeal_customers extends JTable
 	var $email_id		= null;
 	var $Contact_number	= null;
 	var $city 			= null;
-	var $state 		= null;
+	var $states 		= null;
 	var $approved 		= 0;	
 	
 	/**
