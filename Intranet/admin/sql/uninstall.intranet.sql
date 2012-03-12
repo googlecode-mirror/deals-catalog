@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `#__intranet_settings`;
+DROP TABLE IF EXISTS `#__intranet_calendarsetting`;
+DROP TABLE IF EXISTS `#__intranet_paymentsetting`;
+DROP TABLE IF EXISTS `#__intranet_calendarweeklyoff`;
+DROP TABLE IF EXISTS `#__intranet_calendar`;
+DROP TABLE IF EXISTS `#__intranet_users`;
+DROP TABLE IF EXISTS `#__intranet_daliyattendance`;
+DROP TABLE IF EXISTS `#__intranet_monthattendance`;
+DROP TABLE IF EXISTS `#__intranet_leaverequest`;
+DROP TABLE IF EXISTS `#__intranet_payslip`;

@@ -1,0 +1,360 @@
+#intranet
+{
+	float:left; width:99%; padding:5px;
+}
+#calendar_div
+{
+	float:left; width:99%; margin-left:5px; padding:3px; margin-bottom:10px;
+}
+#pre_nxt
+{
+	float:left; width:99%;
+}
+.showpre
+{
+	float:left; width:100px; padding:5px;
+}
+.showpre a
+{
+	color:blue; text-decoration:none;
+}
+.showmonth
+{
+	float:left; width:78%; padding:5px; text-align:center; font-weight:bold; font-size:14px;
+}	
+.shownxt
+{
+	float:right; width:35px; padding:5px;
+}
+.shownxt a
+{
+	color:blue; text-decoration:none;
+}
+#showcalender
+{
+	float:left; width:100%; border-left:1px solid #999; 
+}
+#cal_head
+{
+	float:left; width:99%; 
+}
+.showdays
+{
+	float:left; width:12.99%; text-align:center; padding:5px; border-right:1px solid #999; border-bottom:1px solid #999; border-top:1px solid #999; background-color:#ccc;
+}
+#cal_content
+{
+	float:left; width:99%; 
+}
+.full_row
+{
+	
+}
+.no_row
+{
+	float:left; width:12.99%; background-color:#eee; height:100px; border-right:1px solid #999; padding:5px;  border-bottom:1px solid #999;
+}
+.dates
+{
+	float:left; border-right:1px solid #999; width:14.1%; height:110px;  border-bottom:1px solid #999; background-color:#fff;
+}
+.show_date
+{
+	float:right; width:25px; text-align:center; background-color:#999; color:#000;
+}
+.curr_date
+{
+	float:right; width:25px; text-align:center; background-color:#1F6BB2; font-weight:bold; color:#000;
+}
+.event_desc
+{
+	float:left; width:90%; padding:0px 5px; font-weight:bold; color:green; font-size:9px !important; 
+}
+
+#menu
+{
+	float:left; width:99%; margin:10px 5px; border:1px solid #ccc; border-radius:9px;
+}
+
+#menu ul li
+{
+	margin:0px; padding:6px; text-align:center; float:left; width:22.2%;
+}
+
+#menu ul
+{
+	float:left; width:50%; margin:7px 10px 15px 10px; background-color:#4B8EC1;
+}
+
+#menu li
+{
+	list-style:none; float:left; width:22%; padding:5px;
+}
+
+#menu ul li a
+{
+	color:white; font-weight:bold; text-decoration:none;
+}
+
+#menu  .active
+{
+	color:white; background-color:#A5BF5C;
+}
+
+#menu ul li:hover
+{
+	color:white; background-color:#A5BF5C;
+}
+
+#in_out
+{
+	float:right; width:115px; margin-top:10px;
+}
+
+#view_attendance
+{
+	float:left; width:95%; margin:0px 15px 10px 15px;
+}
+
+#attendance_menu
+{
+	float:left; width:20%; border:1px solid #ccc; border-radius:9px; 
+}
+
+.menus
+{
+	float:left; width:87%; padding:10px; font-weight:bold; cursor:pointer
+}
+
+#attendance_menu  a
+{
+	text-decoration:none;
+}
+
+#attendance_menu  a:hover
+{
+	text-decoration:none; color:#A5BF5C;
+}
+
+#attendance_menu  .active
+{
+	text-decoration:none; color:#A5BF5C; background:none;
+}
+
+#attendance_content
+{
+	float:left; width:75%; margin:0px 15px; border:1px solid #ccc; border-radius:9px;
+}
+
+#monthly
+{
+	float:left; width:95%;  padding:10px;
+}
+
+.heads
+{
+	margin:0px 0px 10px 0px;
+}
+
+.options
+{
+	float:left; width:220px; padding:0px 5px;
+}
+
+.submits
+{
+	float:left; width:100px;
+}
+
+#monthly_view
+{
+	float:left; width:100%; margin:5px; padding:5px;
+}
+
+.views
+{
+	float:left; width:100%; border-left:1px solid #ccc; margin:10px 0px; border-bottom:1px solid #ccc;
+}
+
+.viewheads
+{
+	float:left; width:14.8%; font-weight:bold; padding:5px; border-top:1px solid #ccc; border-right:1px solid #ccc; 
+}
+
+.viewtails
+{
+	float:left; width:14.8%; border-right:1px solid #ccc; border-top:1px solid #ccc; padding:5px; height:20px;
+}
+
+#calendar_div1
+{
+	float:left; width:99%; margin-left:5px; padding:3px; margin-bottom:10px;
+}
+
+#showcalender1
+{
+	float:left; width:100%; border-left:1px solid #999; 
+}
+#cal_head1
+{
+	float:left; width:99%; 
+}
+.showdays1
+{
+	float:left; width:11.99%; text-align:center; padding:5px; border-right:1px solid #999; border-bottom:1px solid #999; border-top:1px solid #999; background-color:#ccc;
+}
+#cal_content1
+{
+	float:left; width:99%; 
+}
+
+.no_row1
+{
+	float:left; width:11.99%; background-color:#eee; height:100px; border-right:1px solid #999; padding:5px;  border-bottom:1px solid #999;
+}
+.dates1
+{
+	float:left; border-right:1px solid #999; width:13.7%; height:110px;  border-bottom:1px solid #999; background-color:#fff;
+}
+.show_date1
+{
+	float:right; width:25px; text-align:center; background-color:#999; color:#000;
+}
+.curr_date1
+{
+	float:right; width:25px; text-align:center; background-color:#1F6BB2; font-weight:bold; color:#000;
+}
+.event_desc1
+{
+	float:left; width:90%; padding:0px 5px; font-weight:bold; color:#4B8EC1; font-size:11px !important;
+}
+
+.event_desc2
+{
+	float:left; width:90%; padding:0px 5px; font-weight:bold; color:green; font-size:11px !important;
+}
+
+.event_desc3
+{
+	float:left; width:90%; padding:0px 5px; font-weight:bold; color:#003333; font-size:11px !important;
+}
+
+#weekly
+{
+	float:left; width:95%; padding:10px;
+}
+
+.options1
+{
+	float:left; width:435px; padding:0px 5px;
+}
+
+.calendar
+{
+	margin-left:5px; position:relative; top:5px;
+}
+
+.viewtails1
+{
+	float:left; width:14.8%;  padding:5px; border-right:1px solid #ccc; height:21px;
+}
+
+.viewtails2
+{
+	float:left; width:14.8%;  padding:5px; border-right:1px solid #ccc; height:20px; border-top:1px solid #ccc;
+}
+
+.viewtails3
+{
+	float:left; width:14.8%;  padding:5px; border-right:1px solid #ccc; height:21px;
+}
+
+#myrequest
+{
+	float:left; width:95%; padding:10px;
+}
+
+.viewheads2
+{
+	float:left; width:10.4%; font-weight:bold; padding:5px; border-top:1px solid #ccc; border-right:1px solid #ccc; 
+}
+
+.viewheads1
+{
+	float:left; width:24.4%; font-weight:bold; padding:5px; border-top:1px solid #ccc; border-right:1px solid #ccc; 
+}
+
+.viewtails4
+{
+	float:left; width:10.4%;  padding:5px; border-right:1px solid #ccc; height:40px; border-top:1px solid #ccc;
+}
+
+.viewtails5
+{
+	float:left; width:24.4%;  padding:5px; border-right:1px solid #ccc; height:40px; border-top:1px solid #ccc;
+}
+
+#newrequest
+{
+	float:left; width:100%; margin:10px 0px;
+}
+
+.leftside
+{
+	float:left; width:25%; padding:5px; font-weight:bold;
+}
+
+.rightside
+{
+	float:left; width:65%; padding:5px; 
+}
+
+.center
+{
+	float:left; width:5%;  padding:5px; font-weight:bold;
+}
+
+#payslip
+{
+	float:left; width:95%; margin:10px; border:1px solid #ccc; border-radius:9px; padding:5px;
+}
+
+#payslip_view
+{
+	float:left; width:90%; padding:5px; margin:10px; 
+}
+
+.main
+{
+	float:left; width: 15%; padding:5px; font-weight:bold;
+}
+
+.main_view
+{
+	float:left; width: 60%; padding:5px; color:#4B8EC1;
+}
+
+#original
+{
+	float:left; width: 45%; padding:5px;  
+}
+
+.main1
+{
+	float:left; width: 48%; padding:5px; font-weight:bold;
+}
+
+.main_view1
+{
+	float:left; width: 25%; padding:5px; 
+}
+
+#monthly1
+{
+	float:left; width: 45%; padding:5px;  border-left:2px solid #ccc;
+}
+
+.main2
+{
+	float:left; width: 55%; padding:5px; font-weight:bold;
+}
