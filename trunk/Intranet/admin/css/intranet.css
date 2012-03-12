@@ -1,0 +1,112 @@
+.setting_head
+{
+	font-weight:bold; background-color:#F6F6F6; border:1px solid #CDCDCD; border-radius:9px 9px 9px 9px; padding:5px; margin:5px 5px 5px 0;
+}
+#calendar_div
+{
+	float:left; width:95%; margin:20px; padding:20px;
+}
+#pre_nxt
+{
+	float:left; width:100%;
+}
+.showpre
+{
+	float:left; width:100px; padding:5px;
+}
+.showpre a
+{
+	color:blue; text-decoration:none;
+}
+.showmonth
+{
+	float:left; width:78%; padding:5px; text-align:center; font-weight:bold; font-size:14px;
+}	
+.shownxt
+{
+	float:right; width:35px; padding:5px;
+}
+.shownxt a
+{
+	color:blue; text-decoration:none;
+}
+#showcalender
+{
+	float:left; width:100%; border-left:1px solid #999; border-top:1px solid #999;
+}
+#cal_head
+{
+	float:left; width:100%; background-color:#ccc;
+}
+.showdays
+{
+	float:left; width:13.38%; text-align:center; padding:5px; border-right:1px solid #999; border-bottom:1px solid #999; 
+}
+#cal_content
+{
+	float:left; width:100%; background-color:#eee;
+}
+.full_row
+{
+	float:left; width:100%; 
+}
+.no_row
+{
+	float:left; width:13.38%; background-color:#eee; height:100px; border-right:1px solid #999; padding:5px;  border-bottom:1px solid #999;
+}
+.dates
+{
+	float:left; border-right:1px solid #999; width:14.2%; height:110px;  border-bottom:1px solid #999; background-color:#fff;
+}
+.show_date
+{
+	float:right; width:25px; text-align:center; background-color:#999; color:#000;
+}
+.curr_date
+{
+	float:right; width:25px; text-align:center; background-color:#1F6BB2; font-weight:bold; color:#000;
+}
+.event_desc
+{
+	float:left; width:90%; padding:0px 5px; font-weight:bold; color:green; 
+}
+.edit_cal
+{
+	float:right; width:10%; padding:0px 5px; font-weight:bold;
+}
+.delete_cal
+{
+	float:right; width:20%; padding:0px 5px; font-weight:bold;
+}
+.delete_cal a
+{
+	color:red;
+}
+.update
+{
+	float:right; width:70px; padding:5px; background-color:#AFCBE7; font-weight:bold; margin:5px;
+}
+.calendar
+{
+	margin-left:5px; position:relative; top:5px;
+}
+
+.events
+{
+	float:left; width:45%; margin:5px; padding:5px;
+}
+
+.left
+{
+	float:left; width:20%; margin:2px; padding:5px; background-color:#F0F0F0;
+}
+
+.right
+{
+	float:left; width:75%; margin:2px 2px 5px;; padding:3px;
+}
+
+.event
+{
+	float:left; width:100%; margin-bottom:5px;
+}

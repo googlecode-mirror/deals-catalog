@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>Intranet</name>
+	<author>Sri Krishnan</author>
+	<creationDate>February 2012</creationDate>
+	<copyright>Copyright (C) 2011-2012 thagatpam PVT LTD. All rights reserved.</copyright>
+	<authorEmail>srikrishnan@thagatpam.com</authorEmail>
+	<authorUrl>www.thagatpam.com</authorUrl>
+	<version>1.5.6 Stable Update 10</version>
+	<description>
+		<![CDATA[
+		 <p><b>Attandance Tracker component for Emplyoee for pay slip, Attendance List, Leave</b></p>
+		
+		]]>
+	</description>
+	
+	<install>
+		<sql folder="admin/sql">
+			<file driver="mysql" charset="utf8">install.intranet.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql  folder="admin/sql">
+			<file driver="mysql" charset="utf8">uninstall.intranet.sql</file>
+		</sql>
+	</uninstall>
+	
+
+	<installfile>install.intranet.php</installfile>
+	
+	<uninstallfile>uninstall.intranet.php</uninstallfile>
+
+	<files folder="site">
+		<folder>css</folder>
+		<filename>index.html</filename>
+		<filename>intranet.php</filename>
+		<filename>intranet.html.php</filename>
+		<filename>correct.gif</filename>
+		<filename>holiday.gif</filename>		
+	</files>
+	<administration>
+		<menu>Intranet</menu>
+		<submenu>
+			<menu link="option=com_intranet">Settings</menu>
+			<menu link="option=com_intranet&amp;task=calendar">Calendar</menu>
+			<menu link="option=com_intranet&amp;task=users">Employee Details</menu>
+			<menu link="option=com_intranet&amp;task=dailyattendance">Daily Attendance</menu>
+			<menu link="option=com_intranet&amp;task=monthattendance">Month Attendance</menu>			
+			<menu link="option=com_intranet&amp;task=payslip">Pay Slip</menu>
+			<menu link="option=com_intranet&amp;task=leaverequest">Leave Request</menu>			
+		</submenu>
+		<files folder="admin">
+			<folder>tables</folder>
+			<folder>sql</folder>
+			<folder>css</folder>
+			<filename>index.html</filename>
+			<filename>admin.intranet.php</filename>
+			<filename>admin.intranet.html.php</filename>
+			<filename>toolbar.intranet.html.php</filename>
+			<filename>toolbar.intranet.php</filename>			
+		</files>
+		
+		<files folder="admin/sql">
+			<filename>index.html</filename>
+			<filename>install.intranet.sql</filename>
+			<filename>uninstall.intranet.sql</filename>
+		</files>
+		
+		
+	</administration>
+</install>
