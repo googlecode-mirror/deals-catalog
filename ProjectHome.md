@@ -1,0 +1,1 @@
+This extension helps to create a multi merchant product deal listing portal. Users can search for products and compare listing from different merchants. Coupons are used to avail deals at retailers store. Coupons can be downloaded or sent to email.
